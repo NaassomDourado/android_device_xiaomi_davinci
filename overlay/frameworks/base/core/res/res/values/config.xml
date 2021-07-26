@@ -288,4 +288,8 @@
         <item>5</item>
         <item>5</item>
     </integer-array>
+
+    <!-- Whether safe headphone volume is enabled or not (country specific). -->
+    <bool name="config_safe_media_volume_enabled">false</bool>
+
 </resources>
