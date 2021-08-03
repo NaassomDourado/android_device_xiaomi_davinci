@@ -12,6 +12,10 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.primary.sm6150:32 \
