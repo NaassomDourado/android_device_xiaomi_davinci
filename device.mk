@@ -10,6 +10,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
+PRODUCT_CHARACTERISTICS := nosdcard
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.primary.sm6150 \
