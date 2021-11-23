@@ -34,8 +34,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
 
 # Kernel
 TARGET_KERNEL_CONFIG := davinci_defconfig
-TARGET_KERNEL_CLANG_VERSION := azure
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-azure
+TARGET_KERNEL_CLANG_VERSION := proton
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
