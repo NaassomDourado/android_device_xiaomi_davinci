@@ -14,6 +14,10 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">8</integer>
+    <integer name="config_maxVisibleNotificationIconsOnLock">8</integer>
+
     <!-- Color of the FOD view -->
     <color name="config_udfpsColor">#00ffffff</color>
 
@@ -22,4 +26,14 @@
             1 - LOCAL HBM
     -->
     <integer name="config_udfps_hbm_type">0</integer>
+
+    <!-- The CPU temperature sensor path, defaults to empty -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
+
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/card0/sde-crtc-0/measured_fps</string>
+
 </resources>
