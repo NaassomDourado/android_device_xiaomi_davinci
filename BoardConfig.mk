@@ -14,6 +14,9 @@ DEVICE_PATH := device/xiaomi/davinci
 
 BUILD_BROKEN_DUP_RULES := true
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := davinci,davinciin
+
 # Audio
 AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
 AUDIO_FEATURE_ENABLED_GEF_SUPPORT := true
